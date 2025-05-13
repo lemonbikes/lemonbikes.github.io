@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LemonBike – Kolesarski servis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      background: url('https://i.postimg.cc/5tCWj6hr/ede5792c-44eb-4207-996b-2bd83e59fbd8.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px 40px;
+    }
+
+    .logo {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      z-index: 10;
+    }
+
+    .banner {
+      width: 100%;
+      display: block;
+      margin-top: 0;
+    }
+
+    h1, h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #FFEB3B;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .footer {
+      background: #1b1b1b;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .footer img {
+      width: 30px;
+      vertical-align: middle;
+    }
+
+    .kontakt-container {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .kontakt-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .kontakt-image {
+      flex: 0 0 auto;
+      max-width: 250px;
+    }
+
+    .kontakt-image img {
+      width: 100%;
+      display: block;
+      border: 2px solid #FFEB3B;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        width: 70px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      .kontakt-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://i.postimg.cc/KjnYT0Cd/LEMON-BIKE-logo-b2.jpg" class="logo" alt="LemonBike Logo">
+  <img src="https://i.postimg.cc/ZRmsZc6w/Untitledijijij.png" class="banner" alt="Banner">
+
+  <div class="overlay">
+    <div class="content">
+      <h2>O nas</h2>
+      <p>Smo strastni kolesarji in mehaniki, ki že več let s srcem skrbimo za brezhibno delovanje vaših koles. Naš cilj je, da se na cesti ali gozdni poti vedno počutite varno in samozavestno.</p>
+      <p>Delavnico smo odprli z željo ponuditi lokalni skupnosti kvaliteten servis, poštene cene in strokovno svetovanje. Vsako kolo obravnavamo individualno in se prilagodimo vašim željam.</p>
+
+      <h2>Storitve</h2>
+      <ul>
+        <li>Osnovni servis koles (nastavitve, mazanje, preverjanje zavor)</li>
+        <li>Veliki servis (čiščenje, centriranje, menjava obrabljenih delov)</li>
+        <li>Popravila zavor in prestav</li>
+        <li>Menjava plaščev in zračnic</li>
+        <li>Električni kolesarski servis</li>
+        <li>Prodaja rezervnih delov (zavorne obloge, verige, pnevmatike itd.)</li>
+        <li>Sestava koles po naročilu</li>
+      </ul>
+
+      <h2>Kontakt</h2>
+      <div class="kontakt-container">
+        <div class="kontakt-text">
+          <p><strong>Lemon Bike, Servis koles, Jernej Šori s.p</strong><br>
+            Naslov: Vodnikova 2, 2250 Ptuj, SLO<br>
+            Telefon: 069 968 899<br>
+            E-pošta: <a href="mailto:lemonbike.servis@gmail.com" style="color:#FFEB3B;">lemonbike.servis@gmail.com</a><br>
+            Delovni čas:<br>
+            Ponedeljek – Petek: 9:00–17:00<br>
+            Sobota: 9:00–13:00
+          </p>
+        </div>
+        <div class="kontakt-image">
+          <img src="https://i.postimg.cc/sDcMJ9j5/ccdccdacdsfbaenebg-bg.png" alt="Tabla delavnica">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://www.facebook.com/profile.php?id=61575263752489&sk=mentions" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="https://www.google.com/maps/place/Vodnikova+ulica+2,+2250+Ptuj" target="_blank">
+      <img src="https://i.postimg.cc/2jTPBpFv/maps-icon.png" alt="Google Maps">
+    </a>
+  </div>
+
+</body>
+</html>
